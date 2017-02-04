@@ -1,0 +1,10 @@
+{
+  "name": "benchmarking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Riza Fahmi",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.3"
+  }
+}
