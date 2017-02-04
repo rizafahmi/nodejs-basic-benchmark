@@ -24,7 +24,7 @@ suite.add('nothing', () => {
 .on('cycle', (event) => {
   console.log(String(event.target))
 })
-.on('complete', () => {
-  console.log('Benchmark finish')
+.on('complete', function () {
+  console.log('The winner is... ' + this.filter('fastest').map('name'))
 })
 .run({ 'async': true })
