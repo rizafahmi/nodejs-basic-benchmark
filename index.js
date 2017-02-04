@@ -15,12 +15,6 @@ suite.add('nothing', () => {
 .add('add', () => {
   1 + 2
 })
-.add('add with function', () => {
-  add(1, 2)
-})
-.add('add with anonym function', () => {
-  addAnon(1, 2)
-})
 .on('cycle', (event) => {
   console.log(String(event.target))
 })
