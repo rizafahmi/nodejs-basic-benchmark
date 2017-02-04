@@ -5,6 +5,7 @@
   "author": "Riza Fahmi",
   "license": "MIT",
   "dependencies": {
-    "benchmark": "^2.1.3"
+    "benchmark": "^2.1.3",
+    "microtime": "^2.1.2"
   }
 }
